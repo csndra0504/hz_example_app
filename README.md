@@ -1,4 +1,7 @@
 #hz_example_app
 
-Based on the `example_app` from [Getting Started with Horizon](http://horizon.io/docs/getting-started/)
+A boilerplate for getting started with React, Webpack, and RethinkDB Horizon server.
 
+1. `npm install`
+2. `npm run build`
+3. `npm start`
