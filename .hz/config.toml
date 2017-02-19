@@ -5,8 +5,8 @@
 # 'bind' controls which local interfaces will be listened on
 # 'port' controls which port will be listened on
 #------------------------------------------------------------------------------
-# bind = [ "localhost" ]
-# port = 8181
+ bind = [ "localhost" ]
+ port = 8181
 
 
 ###############################################################################
@@ -26,7 +26,7 @@
 # 'serve_static' will serve files from the given directory over HTTP/HTTPS
 #------------------------------------------------------------------------------
 project_name = "hz_example_app"
-# serve_static = "dist"
+serve_static = "dist"
 
 
 ###############################################################################
@@ -49,7 +49,7 @@ project_name = "hz_example_app"
 # 'start_rethinkdb' will run an internal RethinkDB instance
 # 'rdb_timeout' is the number of seconds to wait when connecting to RethinkDB
 #------------------------------------------------------------------------------
-# connect = "localhost:28015"
+ connect = "localhost:28015"
 # start_rethinkdb = false
 # rdb_timeout = 30
 
